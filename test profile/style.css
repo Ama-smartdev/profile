@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(31, 32, 32);
+    
+}
+.c1{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 100%;
+   height: 120px;
+   color: #0056b3;
+   background-color: white;
+   margin: auto;
+}
+.c1 img{
+    width: 350px;
+    height: 300px;
+    margin-top: -85px;
+}
+.c1 div ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    margin-top: 50px;
+ }
+ .c1 div ul li {
+    display: block;
+    margin-left: 100px;
+    font-size: 20px;
+    
+ }
+ .c1 div ul li:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+ }
+ .profile{
+    background-image: url(image/developer-programming-code-abstract-computer-script-code-programming-code-screen-software-developer-software-programming-work-time_372999-1932.png);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+ .profile img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    border: 5px solid #0056b3;
+    margin-left: 300px;
+    margin-top: 200px;
+    
+}
+div  h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    font-style:italic;
+     margin-left: 900px;
+     margin-top: -600px;
+    
+}
+div h1 span{
+    color:#0056b3 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+div h3{
+    color: white;
+     font-size: 40px;
+     margin-left: 1200px;
+     animation: reverse;
+     margin-top: -20px;
+}
+div h3 span{
+    text-decoration: underline solid #0056b3;
+    
+}
+
+/*FOR PHONES*/
+@media  (max-width:750px){
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+    color: transparent;
+    border-bottom:  #0056b3;
+     
+}
+.about h1{
+    color: #0056b3;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px; 
+    margin-left: -1px;
+    margin-left: 50px;
+    width: 100%;
+    text-decoration-line: underline;
+}
